@@ -3,11 +3,13 @@ body{
 }
 h1{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 45px;
+    font-size: 50px;
+    font-weight: 700;
 }
 p{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+    color: #6e6e6e;
 }
 .header{
     background-image: url(images/donation13.jpg);
@@ -19,6 +21,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
 }
 .header-content{
     text-align: center;
@@ -41,8 +44,63 @@ p{
     padding: 15px 40px;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 }
+.donate-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.donate-header{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.option ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 40px 25px;
+    color: #6e6e6e;
+    font-size: 25px;
+    font-weight: 700;
+}
+.option{
+    display: flex;
+    margin-bottom: 40px;
+}
+.card{
+    background-color: #f0e0e091;
+    color: #6e6e6e;
+    font-size: 25px;
+    padding: 45px 35px;
+    margin: 10px;
+    font-weight: 700;
+}
+.active{
+    border: 3px solid #ff6347;
+    border-radius: 5px;
+    background-color: #ff63471f;
+    color: #ff6347;
+}
+form input{
+    width: 450px;
+    font-size: 25px;
+    text-align: center;
+    border-width: 0 0 1px;
+    border-color: #6e6e6e;
+    margin-bottom: 60px;
+}
+
+
+.experiment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 
 
