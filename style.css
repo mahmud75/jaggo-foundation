@@ -30,7 +30,7 @@ p{
     align-items: center;
     margin-bottom: 90px;
 }
-.header-content{
+#header-content{
     text-align: center;
     width: 50%;
 }
@@ -57,6 +57,9 @@ p{
 
 
 
+
+
+
 .column-option{
     flex-direction: column;
 }
@@ -65,6 +68,7 @@ p{
     text-align: center;
     margin-bottom: 60px;
 }
+
 
 .option{
     display: flex;
@@ -84,6 +88,11 @@ p{
     background-color: #ff63471f;
     color: #ff6347;
 }
+
+
+
+
+
 .input-fild input{
     width: 450px;
     font-size: 25px;
@@ -92,6 +101,9 @@ p{
     border-color: #6e6e6e;
     margin-bottom: 60px;
 }
+
+
+
 
 
 
@@ -139,8 +151,11 @@ p{
 
 
 
+
+
+
 .about-me-container{
-    background-color: #aab5b135;
+    background-color: #67c4a535;
     width: 1350px;
     margin: 0 auto;
     box-shadow: 15px 15px 30px #b1afa8af;
@@ -158,6 +173,9 @@ p{
 .about-box-color{
     background-color: #fff;
 }
+
+
+
 
 
 
@@ -193,6 +211,8 @@ p{
     font-size: 25px;
     margin-left: -5px;
 }
+
+
 
 
 
