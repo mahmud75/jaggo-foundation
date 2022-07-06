@@ -84,7 +84,7 @@ p{
     background-color: #ff63471f;
     color: #ff6347;
 }
-form input{
+.input-fild input{
     width: 450px;
     font-size: 25px;
     text-align: center;
@@ -144,6 +144,56 @@ form input{
 
 
 
+.input-content{
+    flex-direction: column;
+}
+.input-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 710px;
+    height: 180px;
+    background-color: rgba(243, 163, 58, 0.21);
+    padding: 20px;
+}
+.input-form input{
+    text-align: left;
+    font-size: 25px;
+    width: 280px;
+    height: 40px;
+    padding: 10px;
+    background-color: #41828e30;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+.btn{
+    color: #fff;
+    background-color: #ff6347;
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 0 10px 10px 0;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: -5px;
+}
 
 
 
+
+
+#footer-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.f-header{
+    color: #ff6347;
+    font-family: Lucida Handwriting, 'Source Sans Pro', sans-serif;
+    margin-bottom: 40px;
+}
+.f-text{
+    color: rgba(239, 206, 206, 0.537);
+    font-size: 18px;
+    font-family: cursive, 'Source Sans Pro', sans-serif;
+}
