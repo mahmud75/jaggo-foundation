@@ -24,7 +24,7 @@ p{
     width: 100%;
     height: 100vh;
 }
-.flexible-content{
+.flexible-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +57,7 @@ p{
 
 
 
-.donate-option{
+.column-option{
     flex-direction: column;
 }
 .flexible-header{
@@ -95,11 +95,6 @@ p{
 
 
 
-
-
-.experiment{
-    flex-direction: column;
-}
 .box-model{
     display: flex;
     margin-bottom: 60px;
@@ -144,6 +139,28 @@ p{
 
 
 
+.about-me-container{
+    background-color: #aab5b135;
+    width: 1350px;
+    margin: 0 auto;
+    box-shadow: 15px 15px 30px #b1afa8af;
+    padding: 50px;
+    margin-bottom: 80px;
+}
+.about-box{
+    width: 600px;
+    margin: 10px;
+    padding: 30px;
+}
+.about-box img{
+    width: 30%;
+}
+.about-box-color{
+    background-color: #fff;
+}
+
+
+
 .input-content{
     flex-direction: column;
 }
@@ -169,7 +186,7 @@ p{
 .btn{
     color: #fff;
     background-color: #ff6347;
-    padding: 15px 20px;
+    padding: 15px 30px;
     border: 1px solid #ddd;
     border-radius: 0 10px 10px 0;
     font-weight: 600;
