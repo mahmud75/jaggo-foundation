@@ -13,7 +13,7 @@ h2{
 }
 p{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color: #6e6e6e;
 }
 #myhader{
@@ -36,12 +36,12 @@ p{
 }
 #content-header{
     color: #fff;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
 }
 #content-paragraph{
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 80px;
 }
 .link-button {
@@ -156,16 +156,17 @@ p{
 
 .about-me-container{
     background-color: #67c4a535;
-    width: 1350px;
+    width: 1100px;
     margin: 0 auto;
-    box-shadow: 15px 15px 30px #b1afa8af;
-    padding: 50px;
+    box-shadow: 20px 20px 40px #b1afa8af;
+    padding: 25px;
     margin-bottom: 80px;
+    border-radius: 10px;
 }
 .about-box{
-    width: 600px;
+    width: 500px;
     margin: 10px;
-    padding: 30px;
+    padding: 20px;
 }
 .about-box img{
     width: 30%;
